@@ -7,8 +7,7 @@ import java.net.Socket;
 public class Clientchallenge {
     public static void main(String[] args) {
         try{
-    
-            Socket soc=new Socket("localhost", 5112);
+            Socket soc=new Socket("localhost", 8000);
             BufferedReader B=new BufferedReader(new InputStreamReader(System.in));
             PrintWriter P=new PrintWriter(soc.getOutputStream(),true);
             BufferedReader Br=new BufferedReader(new InputStreamReader(soc.getInputStream()));
