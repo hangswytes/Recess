@@ -327,7 +327,7 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">Student 3</p>
+                                            <p class="text-sm font-weight-bold mb-0">School 3</p>
                                         </td>
                                         <td>
                                             <span class="text-xs font-weight-bold">387,700</span>
