@@ -21,6 +21,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\RegisterController;
