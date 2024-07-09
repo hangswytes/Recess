@@ -61,9 +61,9 @@
               background-size: cover;">
                                 <span class="mask bg-gradient-primary opacity-6"></span>
                                 <h4 class="mt-5 text-white font-weight-bolder position-relative">"Attention is the new
-                                    currency"</h4>
-                                <p class="text-white position-relative">The more effortless the writing looks, the more
-                                    effort the writer actually put into the process.</p>
+                                    International Competition"</h4>
+                                <p class="text-white position-relative">The more effortless the chance to attempt, the more
+                                    effort the participant actually stands to win prizes.</p>
                             </div>
                         </div>
                     </div>

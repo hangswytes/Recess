@@ -10,9 +10,9 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Money</p>
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Number</p>
                                     <h5 class="font-weight-bolder">
-                                        $53,000
+                                        5500
                                     </h5>
                                     <p class="mb-0">
                                         <span class="text-success text-sm font-weight-bolder">+55%</span>
@@ -37,7 +37,7 @@
                                 <div class="numbers">
                                     <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Users</p>
                                     <h5 class="font-weight-bolder">
-                                        2,300
+                                        230
                                     </h5>
                                     <p class="mb-0">
                                         <span class="text-success text-sm font-weight-bolder">+3%</span>
@@ -60,12 +60,12 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">New Clients</p>
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">New Participants</p>
                                     <h5 class="font-weight-bolder">
-                                        +3,462
+                                        +1653
                                     </h5>
                                     <p class="mb-0">
-                                        <span class="text-danger text-sm font-weight-bolder">-2%</span>
+                                        <span class="text-danger text-sm font-weight-bolder">+2%</span>
                                         since last quarter
                                     </p>
                                 </div>
@@ -85,9 +85,9 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Sales</p>
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Attemting Volume</p>
                                     <h5 class="font-weight-bolder">
-                                        $103,430
+                                        10,543,400 Units
                                     </h5>
                                     <p class="mb-0">
                                         <span class="text-success text-sm font-weight-bolder">+5%</span> than last month
@@ -108,10 +108,10 @@
             <div class="col-lg-7 mb-lg-0 mb-4">
                 <div class="card z-index-2 h-100">
                     <div class="card-header pb-0 pt-3 bg-transparent">
-                        <h6 class="text-capitalize">Sales overview</h6>
+                        <h6 class="text-capitalize">Performance overview</h6>
                         <p class="text-sm mb-0">
                             <i class="fa fa-arrow-up text-success"></i>
-                            <span class="font-weight-bold">4% more</span> in 2021
+                            <span class="font-weight-bold">4% more</span> in 2024
                         </p>
                     </div>
                     <div class="card-body p-3">
@@ -131,7 +131,7 @@
                                     <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
                                         <i class="ni ni-camera-compact text-dark opacity-10"></i>
                                     </div>
-                                    <h5 class="text-white mb-1">Get started with Argon</h5>
+                                    <h5 class="text-white mb-1">Get started with G-22 International to win </h5>
                                     <p>There’s nothing I really wanted to do in life that I wasn’t able to get good at.</p>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                     <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
                                         <i class="ni ni-bulb-61 text-dark opacity-10"></i>
                                     </div>
-                                    <h5 class="text-white mb-1">Faster way to create web pages</h5>
+                                    <h5 class="text-white mb-1">Faster way to manage and monitor Competitions</h5>
                                     <p>That’s my skill. I’m not really specifically talented at anything except for the
                                         ability to learn.</p>
                                 </div>
@@ -152,7 +152,7 @@
                                     <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
                                         <i class="ni ni-trophy text-dark opacity-10"></i>
                                     </div>
-                                    <h5 class="text-white mb-1">Share with us your design tips!</h5>
+                                    <h5 class="text-white mb-1">Share with us your Administration tips!</h5>
                                     <p>Don’t be afraid to be wrong because you can’t learn anything from a compliment.</p>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
                 <div class="card ">
                     <div class="card-header pb-0 p-3">
                         <div class="d-flex justify-content-between">
-                            <h6 class="mb-2">Sales by Country</h6>
+                            <h6 class="mb-2">Performance by Schools</h6>
                         </div>
                     </div>
                     <div class="table-responsive">
@@ -189,26 +189,26 @@
                                                 <img src="./img/icons/flags/US.png" alt="Country flag">
                                             </div>
                                             <div class="ms-4">
-                                                <p class="text-xs font-weight-bold mb-0">Country:</p>
-                                                <h6 class="text-sm mb-0">United States</h6>
+                                                <p class="text-xs font-weight-bold mb-0">School:</p>
+                                                <h6 class="text-sm mb-0">School 1</h6>
                                             </div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                                            <h6 class="text-sm mb-0">2500</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Student:</p>
+                                            <h6 class="text-sm mb-0">Student 1</h6>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Value:</p>
-                                            <h6 class="text-sm mb-0">$230,900</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Ranking Points:</p>
+                                            <h6 class="text-sm mb-0">230,900</h6>
                                         </div>
                                     </td>
                                     <td class="align-middle text-sm">
                                         <div class="col text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                                            <p class="text-xs font-weight-bold mb-0">% Ratings:</p>
                                             <h6 class="text-sm mb-0">29.9%</h6>
                                         </div>
                                     </td>
@@ -220,26 +220,26 @@
                                                 <img src="./img/icons/flags/DE.png" alt="Country flag">
                                             </div>
                                             <div class="ms-4">
-                                                <p class="text-xs font-weight-bold mb-0">Country:</p>
-                                                <h6 class="text-sm mb-0">Germany</h6>
+                                                <p class="text-xs font-weight-bold mb-0">School:</p>
+                                                <h6 class="text-sm mb-0">School 2</h6>
                                             </div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                                            <h6 class="text-sm mb-0">3.900</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Student:</p>
+                                            <h6 class="text-sm mb-0">Student 2</h6>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Value:</p>
-                                            <h6 class="text-sm mb-0">$440,000</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Ranking Points:</p>
+                                            <h6 class="text-sm mb-0">440,000</h6>
                                         </div>
                                     </td>
                                     <td class="align-middle text-sm">
                                         <div class="col text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                                            <p class="text-xs font-weight-bold mb-0">% Ratings:</p>
                                             <h6 class="text-sm mb-0">40.22%</h6>
                                         </div>
                                     </td>
@@ -251,26 +251,26 @@
                                                 <img src="./img/icons/flags/GB.png" alt="Country flag">
                                             </div>
                                             <div class="ms-4">
-                                                <p class="text-xs font-weight-bold mb-0">Country:</p>
-                                                <h6 class="text-sm mb-0">Great Britain</h6>
+                                                <p class="text-xs font-weight-bold mb-0">School:</p>
+                                                <h6 class="text-sm mb-0">School 3</h6>
                                             </div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                                            <h6 class="text-sm mb-0">1.400</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Student:</p>
+                                            <h6 class="text-sm mb-0">Student 3</h6>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Value:</p>
-                                            <h6 class="text-sm mb-0">$190,700</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Ranking Points:</p>
+                                            <h6 class="text-sm mb-0">190,700</h6>
                                         </div>
                                     </td>
                                     <td class="align-middle text-sm">
                                         <div class="col text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                                            <p class="text-xs font-weight-bold mb-0">% Ratings:</p>
                                             <h6 class="text-sm mb-0">23.44%</h6>
                                         </div>
                                     </td>
@@ -282,26 +282,26 @@
                                                 <img src="./img/icons/flags/BR.png" alt="Country flag">
                                             </div>
                                             <div class="ms-4">
-                                                <p class="text-xs font-weight-bold mb-0">Country:</p>
-                                                <h6 class="text-sm mb-0">Brasil</h6>
+                                                <p class="text-xs font-weight-bold mb-0">School:</p>
+                                                <h6 class="text-sm mb-0">School 4</h6>
                                             </div>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Sales:</p>
-                                            <h6 class="text-sm mb-0">562</h6>
+                                            <p class="text-xs font-weight-bold mb-0">Student:</p>
+                                            <h6 class="text-sm mb-0">Student 4</h6>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Value:</p>
-                                            <h6 class="text-sm mb-0">$143,960</h6>
+                                            <p class="text-xs font-weight-bold mb-0">VRanking Points:</p>
+                                            <h6 class="text-sm mb-0">143,960</h6>
                                         </div>
                                     </td>
                                     <td class="align-middle text-sm">
                                         <div class="col text-center">
-                                            <p class="text-xs font-weight-bold mb-0">Bounce:</p>
+                                            <p class="text-xs font-weight-bold mb-0">% Ratings:</p>
                                             <h6 class="text-sm mb-0">32.14%</h6>
                                         </div>
                                     </td>
@@ -324,9 +324,9 @@
                                         <i class="ni ni-mobile-button text-white opacity-10"></i>
                                     </div>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Devices</h6>
+                                        <h6 class="mb-1 text-dark text-sm">Prizes</h6>
                                         <span class="text-xs">250 in stock, <span class="font-weight-bold">346+
-                                                sold</span></span>
+                                                won</span></span>
                                     </div>
                                 </div>
                                 <div class="d-flex">
@@ -341,8 +341,8 @@
                                         <i class="ni ni-tag text-white opacity-10"></i>
                                     </div>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Tickets</h6>
-                                        <span class="text-xs">123 closed, <span class="font-weight-bold">15
+                                        <h6 class="mb-1 text-dark text-sm">Attempts</h6>
+                                        <span class="text-xs">1230 closed, <span class="font-weight-bold">1500
                                                 open</span></span>
                                     </div>
                                 </div>

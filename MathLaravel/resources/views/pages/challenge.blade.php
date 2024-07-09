@@ -1,7 +1,7 @@
 @extends('layouts.app', ['class' => 'g-sidenav-show bg-gray-100'])
 
 @section('content')
-    @include('layouts.navbars.auth.topnav', ['title' => 'Billing'])
+    @include('layouts.navbars.auth.topnav', ['title' => 'Challenge'])
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-lg-8">
@@ -14,17 +14,15 @@
                                 <div class="card-body position-relative z-index-1 p-3">
                                     <i class="fas fa-wifi text-white p-2"></i>
                                     <h5 class="text-white mt-4 mb-5 pb-2">
-                                        4562&nbsp;&nbsp;&nbsp;1122&nbsp;&nbsp;&nbsp;4594&nbsp;&nbsp;&nbsp;7852</h5>
+                                       Challenge ID : C001 
+                                    </h5>
                                     <div class="d-flex">
                                         <div class="d-flex">
                                             <div class="me-4">
-                                                <p class="text-white text-sm opacity-8 mb-0">Card Holder</p>
+                                                <p class="text-white text-sm opacity-8 mb-0">Challenge Admin</p>
                                                 <h6 class="text-white mb-0">Jack Peterson</h6>
                                             </div>
-                                            <div>
-                                                <p class="text-white text-sm opacity-8 mb-0">Expires</p>
-                                                <h6 class="text-white mb-0">11/22</h6>
-                                            </div>
+                                            
                                         </div>
                                         <div class="ms-auto w-20 d-flex align-items-end justify-content-end">
                                             <img class="w-60 mt-2" src="/img/logos/mastercard.png" alt="logo">
@@ -45,10 +43,10 @@
                                         </div>
                                     </div>
                                     <div class="card-body pt-0 p-3 text-center">
-                                        <h6 class="text-center mb-0">Salary</h6>
-                                        <span class="text-xs">Belong Interactive</span>
+                                        <h6 class="text-center mb-0">Duration</h6>
+                                        <span class="text-xs">Total Time for each</span>
                                         <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">+$2000</h5>
+                                        <h5 class="mb-0">20 Minutes</h5>
                                     </div>
                                 </div>
                             </div>
@@ -61,10 +59,10 @@
                                         </div>
                                     </div>
                                     <div class="card-body pt-0 p-3 text-center">
-                                        <h6 class="text-center mb-0">Paypal</h6>
-                                        <span class="text-xs">Freelance Payment</span>
+                                        <h6 class="text-center mb-0">Attempts</h6>
+                                        <span class="text-xs">Number of attempts within 20 minutes</span>
                                         <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">$455.00</h5>
+                                        <h5 class="mb-0">3 Times</h5>
                                     </div>
                                 </div>
                             </div>
@@ -75,11 +73,11 @@
                             <div class="card-header pb-0 p-3">
                                 <div class="row">
                                     <div class="col-6 d-flex align-items-center">
-                                        <h6 class="mb-0">Payment Method</h6>
+                                        <h6 class="mb-0">New Challenge</h6>
                                     </div>
                                     <div class="col-6 text-end">
                                         <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i
-                                                class="fas fa-plus"></i>&nbsp;&nbsp;Add New Card</a>
+                                                class="fas fa-plus"></i>&nbsp;&nbsp;Add New Challenge</a>
                                     </div>
                                 </div>
                             </div>
@@ -88,9 +86,10 @@
                                     <div class="col-md-6 mb-md-0 mb-4">
                                         <div
                                             class="card card-body border card-plain border-radius-lg d-flex align-items-center flex-row">
-                                            <img class="w-10 me-3 mb-0" src="/img/logos/mastercard.png" alt="logo">
+                                           
                                             <h6 class="mb-0">
-                                                ****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;7852</h6>
+                                              Add New Questions  
+                                            </h6>
                                             <i class="fas fa-pencil-alt ms-auto text-dark cursor-pointer"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Card"></i>
                                         </div>
@@ -98,9 +97,10 @@
                                     <div class="col-md-6">
                                         <div
                                             class="card card-body border card-plain border-radius-lg d-flex align-items-center flex-row">
-                                            <img class="w-10 me-3 mb-0" src="/img/logos/visa.png" alt="logo">
+
                                             <h6 class="mb-0">
-                                                ****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;5248</h6>
+                                               Modify Questions
+                                            </h6>
                                             <i class="fas fa-pencil-alt ms-auto text-dark cursor-pointer"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Card"></i>
                                         </div>
@@ -116,66 +116,66 @@
                     <div class="card-header pb-0 p-3">
                         <div class="row">
                             <div class="col-6 d-flex align-items-center">
-                                <h6 class="mb-0">Invoices</h6>
+                                <h6 class="mb-0">Challenges Completed</h6>
                             </div>
                             <div class="col-6 text-end">
                                 <button class="btn btn-outline-primary btn-sm mb-0">View All</button>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="card-body p-3 pb-0">
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="mb-1 text-dark font-weight-bold text-sm">March, 01, 2020</h6>
-                                    <span class="text-xs">#MS-415646</span>
+                                    <h6 class="mb-1 text-dark font-weight-bold text-sm">Challenge 1</h6>
+                                    <span class="text-xs">#C001</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    $180
+                                    Done
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">February, 10, 2021</h6>
-                                    <span class="text-xs">#RV-126749</span>
+                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">Challenge 2</h6>
+                                    <span class="text-xs">#C002</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    $250
+                                    Done
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">April, 05, 2020</h6>
-                                    <span class="text-xs">#FB-212562</span>
+                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">Challenge 3</h6>
+                                    <span class="text-xs">#C003</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    $560
+                                    Done
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">June, 25, 2019</h6>
-                                    <span class="text-xs">#QW-103578</span>
+                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">Challenge 4</h6>
+                                    <span class="text-xs">#C004</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    $120
+                                Done
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">March, 01, 2019</h6>
-                                    <span class="text-xs">#AR-803481</span>
+                                    <h6 class="text-dark mb-1 font-weight-bold text-sm">Challenge 5</h6>
+                                    <span class="text-xs">#C005</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    $300
+                                    Done
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
@@ -189,59 +189,58 @@
             <div class="col-md-7 mt-4">
                 <div class="card">
                     <div class="card-header pb-0 px-3">
-                        <h6 class="mb-0">Billing Information</h6>
+                        <h6 class="mb-0">Questions To Add</h6>
                     </div>
                     <div class="card-body pt-4 p-3">
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="mb-3 text-sm">Oliver Liam</h6>
-                                    <span class="mb-2 text-xs">Company Name: <span
-                                            class="text-dark font-weight-bold ms-sm-2">Viking Burrito</span></span>
-                                    <span class="mb-2 text-xs">Email Address: <span
-                                            class="text-dark ms-sm-2 font-weight-bold">oliver@burrito.com</span></span>
-                                    <span class="text-xs">VAT Number: <span
-                                            class="text-dark ms-sm-2 font-weight-bold">FRB1235476</span></span>
-                                </div>
+                                    <h6 class="mb-3 text-sm">Question 1</h6>
+                                    <span class="mb-2 text-xs">Three  children  went  home  from  a  party  with  four  balloons  each,  and  four
+                                     children went home with three balloons each. How many balloons is that altogether?
+                                     <br><br>
+                                       A.  3            <br>             B.  4          <br>              C.  12           <br>           D.  24          <br>            E.  36	
+                                    <span>
+                                    <div class="ms-auto text-end">
+                                    <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i
+                                            class="far fa-trash-alt me-2"></i>Delete</a>
+                                    <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i
+                                            class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit</a>
+                                </div>   
+                               </div>  
+                            </li>
+                            <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
+                                <div class="d-flex flex-column">
+                                    <h6 class="mb-3 text-sm">Question 2</h6>
+                                    <span class="mb-2 text-xs">How many grams of jam are there in this full jam jar?
+                                        <br><br>
+                                      A.  0.4 grams        <br>          B.  4 grams          <br>           C.  40 grams  <br> D.  400 grams         <br>        E.  4000 grams			
+                                    <span>
+                                        
+                                
                                 <div class="ms-auto text-end">
                                     <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i
                                             class="far fa-trash-alt me-2"></i>Delete</a>
                                     <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i
                                             class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit</a>
+                                </div>
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
                                 <div class="d-flex flex-column">
-                                    <h6 class="mb-3 text-sm">Lucas Harper</h6>
-                                    <span class="mb-2 text-xs">Company Name: <span
-                                            class="text-dark font-weight-bold ms-sm-2">Stone Tech Zone</span></span>
-                                    <span class="mb-2 text-xs">Email Address: <span
-                                            class="text-dark ms-sm-2 font-weight-bold">lucas@stone-tech.com</span></span>
-                                    <span class="text-xs">VAT Number: <span
-                                            class="text-dark ms-sm-2 font-weight-bold">FRB1235476</span></span>
-                                </div>
+                                    <h6 class="mb-3 text-sm">Question 3</h6>
+                                    <span class="mb-2 text-xs">In one of the five words below, every letter has rotational symmetry.
+                                         Which word?<br><br>
+                                        A.  ONION   <br>      B.  BISON    <br>     C.  DOZEN    <br>    D.  SAXON   <br>     E.  CHINO	
+                                    <span>
+                                         
+                                
                                 <div class="ms-auto text-end">
                                     <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i
                                             class="far fa-trash-alt me-2"></i>Delete</a>
                                     <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i
                                             class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit</a>
                                 </div>
-                            </li>
-                            <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
-                                <div class="d-flex flex-column">
-                                    <h6 class="mb-3 text-sm">Ethan James</h6>
-                                    <span class="mb-2 text-xs">Company Name: <span
-                                            class="text-dark font-weight-bold ms-sm-2">Fiber Notion</span></span>
-                                    <span class="mb-2 text-xs">Email Address: <span
-                                            class="text-dark ms-sm-2 font-weight-bold">ethan@fiber.com</span></span>
-                                    <span class="text-xs">VAT Number: <span
-                                            class="text-dark ms-sm-2 font-weight-bold">FRB1235476</span></span>
-                                </div>
-                                <div class="ms-auto text-end">
-                                    <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i
-                                            class="far fa-trash-alt me-2"></i>Delete</a>
-                                    <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;"><i
-                                            class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit</a>
                                 </div>
                             </li>
                         </ul>
@@ -253,29 +252,42 @@
                     <div class="card-header pb-0 px-3">
                         <div class="row">
                             <div class="col-md-6">
-                                <h6 class="mb-0">Your Transaction's</h6>
+                                <h6 class="mb-0">Challenges Stock </h6>
                             </div>
-                            <div class="col-md-6 d-flex justify-content-end align-items-center">
-                                <i class="far fa-calendar-alt me-2"></i>
-                                <small>23 - 30 March 2020</small>
+                            <div class="col-6 text-end">
+                                <button class="btn btn-outline-primary btn-sm mb-0">View All</button>
                             </div>
                         </div>
                     </div>
                     <div class="card-body pt-4 p-3">
                         <h6 class="text-uppercase text-body text-xs font-weight-bolder mb-3">Newest</h6>
                         <ul class="list-group">
+                        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                                <div class="d-flex align-items-center">
+                                    <button
+                                        class="btn btn-icon-only btn-rounded btn-outline-dark mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-exclamation"></i></button>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">29 June 2024, at 05:00 AM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center text-dark text-sm font-weight-bold">
+                                    Pending
+                                </div>
+                            </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
                                     <button
                                         class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
                                             class="fas fa-arrow-down"></i></button>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Netflix</h6>
-                                        <span class="text-xs">27 March 2020, at 12:30 PM</span>
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">29 June 2024, at 12:30 PM</span>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">
-                                    - $ 2,500
+                                    Timed Out
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
@@ -284,12 +296,12 @@
                                         class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
                                             class="fas fa-arrow-up"></i></button>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Apple</h6>
-                                        <span class="text-xs">27 March 2020, at 04:30 AM</span>
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">29 June 2024, at 04:30 AM</span>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
-                                    + $ 2,000
+                                   Within Time
                                 </div>
                             </li>
                         </ul>
@@ -301,12 +313,12 @@
                                         class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
                                             class="fas fa-arrow-up"></i></button>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Stripe</h6>
-                                        <span class="text-xs">26 March 2020, at 13:45 PM</span>
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">28 June 2024, at 13:45 PM</span>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
-                                    + $ 750
+                                    Within Time
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
@@ -315,12 +327,12 @@
                                         class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
                                             class="fas fa-arrow-up"></i></button>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">HubSpot</h6>
-                                        <span class="text-xs">26 March 2020, at 12:30 PM</span>
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">28 June 2024, at 12:30 PM</span>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
-                                    + $ 1,000
+                                Within Time
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
@@ -329,26 +341,99 @@
                                         class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
                                             class="fas fa-arrow-up"></i></button>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Creative Tim</h6>
-                                        <span class="text-xs">26 March 2020, at 08:30 AM</span>
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">28 June 2024, at 08:30 AM</span>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
-                                    + $ 2,500
+                                Within Time
                                 </div>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
                                     <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-dark mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-exclamation"></i></button>
+                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-arrow-down"></i></button>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Webflow</h6>
-                                        <span class="text-xs">26 March 2020, at 05:00 AM</span>
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">28 June 2024, at 12:30 PM</span>
                                     </div>
                                 </div>
-                                <div class="d-flex align-items-center text-dark text-sm font-weight-bold">
-                                    Pending
+                                <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">
+                                    Timed Out
+                                </div>
+                            </li>
+                        </ul>
+                        <h6 class="text-uppercase text-body text-xs font-weight-bolder my-3">Last 5 Days</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                                <div class="d-flex align-items-center">
+                                    <button
+                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-arrow-up"></i></button>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">27 June 2024, at 13:45 PM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
+                                    Within Time
+                                </div>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                                <div class="d-flex align-items-center">
+                                    <button
+                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-arrow-up"></i></button>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">27 June 2024, at 12:30 PM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
+                                Within Time
+                                </div>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                                <div class="d-flex align-items-center">
+                                    <button
+                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-arrow-up"></i></button>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">26 June 2024, at 08:30 AM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
+                                Within Time
+                                </div>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                                <div class="d-flex align-items-center">
+                                    <button
+                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-arrow-down"></i></button>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">26 June 2024, at 12:30 PM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">
+                                    Timed Out
+                                </div>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                                <div class="d-flex align-items-center">
+                                    <button
+                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
+                                            class="fas fa-arrow-down"></i></button>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
+                                        <span class="text-xs">25 June 2024, at 12:30 PM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">
+                                    Timed Out
                                 </div>
                             </li>
                         </ul>

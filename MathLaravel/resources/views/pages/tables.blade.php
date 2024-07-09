@@ -7,7 +7,7 @@
             <div class="col-12">
                 <div class="card mb-4">
                     <div class="card-header pb-0">
-                        <h6>Authors table</h6>
+                        <h6>Admin table</h6>
                     </div>
                     <div class="card-body px-0 pt-0 pb-2">
                         <div class="table-responsive p-0">
@@ -15,9 +15,9 @@
                                 <thead>
                                     <tr>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            Author</th>
+                                            Admin</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                            Function</th>
+                                            Position</th>
                                         <th
                                             class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                             Status</th>
@@ -219,7 +219,7 @@
             <div class="col-12">
                 <div class="card mb-4">
                     <div class="card-header pb-0">
-                        <h6>Projects table</h6>
+                        <h6>Overall Student Performance Top 6</h6>
                     </div>
                     <div class="card-body px-0 pt-0 pb-2">
                         <div class="table-responsive p-0">
@@ -227,16 +227,16 @@
                                 <thead>
                                     <tr>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            Project</th>
+                                            Name</th>
                                         <th
                                             class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                            Budget</th>
+                                            School</th>
                                         <th
                                             class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                            Status</th>
+                                            Ranking Points</th>
                                         <th
                                             class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">
-                                            Completion</th>
+                                            % Ratings</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -249,15 +249,15 @@
                                                         class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                                                 </div>
                                                 <div class="my-auto">
-                                                    <h6 class="mb-0 text-sm">Spotify</h6>
+                                                    <h6 class="mb-0 text-sm">Student 1</h6>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">$2,500</p>
+                                            <p class="text-sm font-weight-bold mb-0">School 1</p>
                                         </td>
                                         <td>
-                                            <span class="text-xs font-weight-bold">working</span>
+                                            <span class="text-xs font-weight-bold">440,000</span>
                                         </td>
                                         <td class="align-middle text-center">
                                             <div class="d-flex align-items-center justify-content-center">
@@ -285,19 +285,19 @@
                                                         class="avatar avatar-sm rounded-circle me-2" alt="invision">
                                                 </div>
                                                 <div class="my-auto">
-                                                    <h6 class="mb-0 text-sm">Invision</h6>
+                                                    <h6 class="mb-0 text-sm">Student 2</h6>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">$5,000</p>
+                                            <p class="text-sm font-weight-bold mb-0">School 2</p>
                                         </td>
                                         <td>
-                                            <span class="text-xs font-weight-bold">done</span>
+                                            <span class="text-xs font-weight-bold">413,000</span>
                                         </td>
                                         <td class="align-middle text-center">
                                             <div class="d-flex align-items-center justify-content-center">
-                                                <span class="me-2 text-xs font-weight-bold">100%</span>
+                                                <span class="me-2 text-xs font-weight-bold">54%</span>
                                                 <div>
                                                     <div class="progress">
                                                         <div class="progress-bar bg-gradient-success" role="progressbar"
@@ -322,19 +322,19 @@
                                                         class="avatar avatar-sm rounded-circle me-2" alt="jira">
                                                 </div>
                                                 <div class="my-auto">
-                                                    <h6 class="mb-0 text-sm">Jira</h6>
+                                                    <h6 class="mb-0 text-sm">Student 3</h6>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">$3,400</p>
+                                            <p class="text-sm font-weight-bold mb-0">Student 3</p>
                                         </td>
                                         <td>
-                                            <span class="text-xs font-weight-bold">canceled</span>
+                                            <span class="text-xs font-weight-bold">387,700</span>
                                         </td>
                                         <td class="align-middle text-center">
                                             <div class="d-flex align-items-center justify-content-center">
-                                                <span class="me-2 text-xs font-weight-bold">30%</span>
+                                                <span class="me-2 text-xs font-weight-bold">40%</span>
                                                 <div>
                                                     <div class="progress">
                                                         <div class="progress-bar bg-gradient-danger" role="progressbar"
@@ -359,19 +359,19 @@
                                                         class="avatar avatar-sm rounded-circle me-2" alt="slack">
                                                 </div>
                                                 <div class="my-auto">
-                                                    <h6 class="mb-0 text-sm">Slack</h6>
+                                                    <h6 class="mb-0 text-sm">Student 4</h6>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">$1,000</p>
+                                            <p class="text-sm font-weight-bold mb-0">School 4</p>
                                         </td>
                                         <td>
-                                            <span class="text-xs font-weight-bold">canceled</span>
+                                            <span class="text-xs font-weight-bold">320,000</span>
                                         </td>
                                         <td class="align-middle text-center">
                                             <div class="d-flex align-items-center justify-content-center">
-                                                <span class="me-2 text-xs font-weight-bold">0%</span>
+                                                <span class="me-2 text-xs font-weight-bold">36%</span>
                                                 <div>
                                                     <div class="progress">
                                                         <div class="progress-bar bg-gradient-success" role="progressbar"
@@ -396,19 +396,19 @@
                                                         class="avatar avatar-sm rounded-circle me-2" alt="webdev">
                                                 </div>
                                                 <div class="my-auto">
-                                                    <h6 class="mb-0 text-sm">Webdev</h6>
+                                                    <h6 class="mb-0 text-sm">Student 5</h6>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">$14,000</p>
+                                            <p class="text-sm font-weight-bold mb-0">School 5</p>
                                         </td>
                                         <td>
-                                            <span class="text-xs font-weight-bold">working</span>
+                                            <span class="text-xs font-weight-bold">289,760</span>
                                         </td>
                                         <td class="align-middle text-center">
                                             <div class="d-flex align-items-center justify-content-center">
-                                                <span class="me-2 text-xs font-weight-bold">80%</span>
+                                                <span class="me-2 text-xs font-weight-bold">32%</span>
                                                 <div>
                                                     <div class="progress">
                                                         <div class="progress-bar bg-gradient-info" role="progressbar"
@@ -433,19 +433,19 @@
                                                         class="avatar avatar-sm rounded-circle me-2" alt="xd">
                                                 </div>
                                                 <div class="my-auto">
-                                                    <h6 class="mb-0 text-sm">Adobe XD</h6>
+                                                    <h6 class="mb-0 text-sm">Student 6</h6>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p class="text-sm font-weight-bold mb-0">$2,300</p>
+                                            <p class="text-sm font-weight-bold mb-0">School 6</p>
                                         </td>
                                         <td>
-                                            <span class="text-xs font-weight-bold">done</span>
+                                            <span class="text-xs font-weight-bold">250,000</span>
                                         </td>
                                         <td class="align-middle text-center">
                                             <div class="d-flex align-items-center justify-content-center">
-                                                <span class="me-2 text-xs font-weight-bold">100%</span>
+                                                <span class="me-2 text-xs font-weight-bold">29%</span>
                                                 <div>
                                                     <div class="progress">
                                                         <div class="progress-bar bg-gradient-success" role="progressbar"
