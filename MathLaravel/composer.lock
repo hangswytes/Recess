@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccc6cde2fe584957943cc9e97db6a506",
+    "content-hash": "d3a507728ccf9f3686512c33346c269c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -188,16 +188,16 @@
         },
         {
             "name": "dflydev/dot-access-data",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549"
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/f41715465d65213d644d3141a6a93081be5d3549",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/a23a2bf4f31d3518f3ecb38660c95715dfead60f",
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f",
                 "shasum": ""
             },
             "require": {
@@ -257,9 +257,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
+                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
-            "time": "2022-10-27T11:44:00+00:00"
+            "time": "2024-07-08T12:26:09+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1182,17 +1182,17 @@
             "time": "2023-12-03T19:50:20+00:00"
         },
         {
-            "name": "laravel-frontend-presets/argon",
-            "version": "v2.0.0",
+            "name": "laravel-frontend-presets/light-bootstrap",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel-frontend-presets/argon.git",
-                "reference": "b781bd99391f5e5fd69d8d7e54a5e880fbf5e722"
+                "url": "https://github.com/laravel-frontend-presets/light-bootstrap-dashboard.git",
+                "reference": "9f5e6955a399be471fec6c4fe905ac535763f44b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-frontend-presets/argon/zipball/b781bd99391f5e5fd69d8d7e54a5e880fbf5e722",
-                "reference": "b781bd99391f5e5fd69d8d7e54a5e880fbf5e722",
+                "url": "https://api.github.com/repos/laravel-frontend-presets/light-bootstrap-dashboard/zipball/9f5e6955a399be471fec6c4fe905ac535763f44b",
+                "reference": "9f5e6955a399be471fec6c4fe905ac535763f44b",
                 "shasum": ""
             },
             "require": {
@@ -1203,13 +1203,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "LaravelFrontendPresets\\ArgonPreset\\ArgonPresetServiceProvider"
+                        "LaravelFrontendPresets\\LightBootstrapPreset\\LightBootstrapPresetServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "LaravelFrontendPresets\\ArgonPreset\\": "src/"
+                    "LaravelFrontendPresets\\LightBootstrapPreset\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1217,17 +1217,17 @@
                 "MIT"
             ],
             "description": "Laravel 9.x Front-end preset for argon",
-            "homepage": "https://github.com/creativetimofficial/argon-dashboard-laravel",
+            "homepage": "https://github.com/creativetimofficial/light-bootstrap-dashboard-laravel",
             "keywords": [
-                "Argon",
+                "Light Bootstrap",
                 "laravel",
                 "preset"
             ],
             "support": {
-                "issues": "https://github.com/laravel-frontend-presets/argon/issues",
-                "source": "https://github.com/laravel-frontend-presets/argon/tree/v2.0.0"
+                "issues": "https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues",
+                "source": "https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/tree/v1.0.4"
             },
-            "time": "2022-09-29T13:54:26+00:00"
+            "time": "2022-03-28T07:37:09+00:00"
         },
         {
             "name": "laravel/framework",
@@ -6166,16 +6166,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.30.1",
+            "version": "v1.30.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "8ba049b6c06e0330b6aa1fb7af2746fb4da445e4"
+                "reference": "f5a9699a1001e15de1aa5e7cb5c9f50a3f63f887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/8ba049b6c06e0330b6aa1fb7af2746fb4da445e4",
-                "reference": "8ba049b6c06e0330b6aa1fb7af2746fb4da445e4",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/f5a9699a1001e15de1aa5e7cb5c9f50a3f63f887",
+                "reference": "f5a9699a1001e15de1aa5e7cb5c9f50a3f63f887",
                 "shasum": ""
             },
             "require": {
@@ -6225,7 +6225,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-07-01T20:55:03+00:00"
+            "time": "2024-07-05T16:01:51+00:00"
         },
         {
             "name": "mockery/mockery",

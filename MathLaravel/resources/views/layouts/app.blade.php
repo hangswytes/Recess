@@ -1,70 +1,127 @@
+<!-- 
+=========================================================
+ Light Bootstrap Dashboard - v2.0.1
+=========================================================
+
+ Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard
+ Copyright 2019 Creative Tim (https://www.creative-tim.com) & Updivision (https://www.updivision.com)
+ Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE)
+
+ Coded by Creative Tim & Updivision
+
+=========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  -->
 <!DOCTYPE html>
+
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('light-bootstrap/img/apple-icon.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('light-bootstrap/img/favicon.ico') }}">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>{{ $title }}</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+        <!--     Fonts and icons     -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+        <!-- CSS Files -->
+        <link href="{{ asset('light-bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
+        <link href="{{ asset('light-bootstrap/css/light-bootstrap-dashboard.css?v=2.0.0') }} " rel="stylesheet" />
+        <!-- CSS Just for demo purpose, don't include it in your project -->
+        <link href="{{ asset('light-bootstrap/css/demo.css') }}" rel="stylesheet" />
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="/img/favicon.png">
-    <title>
-        Argon Dashboard 2 by Creative Tim
-    </title>
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-    <!-- Nucleo Icons -->
-    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-    <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
-    <!-- CSS Files -->
-    <link id="pagestyle" href="assets/css/argon-dashboard.css" rel="stylesheet" />
-</head>
+    <body>
+        <div class="wrapper @if (!auth()->check() || request()->route()->getName() == "") wrapper-full-page @endif">
 
-<body class="{{ $class ?? '' }}">
-
-    @guest
-        @yield('content')
-    @endguest
-
-    @auth
-        @if (in_array(request()->route()->getName(), ['sign-in-static', 'sign-up-static', 'login', 'register', 'recover-password', 'rtl', 'virtual-reality']))
-            @yield('content')
-        @else
-            @if (!in_array(request()->route()->getName(), ['profile', 'profile-static']))
-                <div class="min-height-300 bg-primary position-absolute w-100"></div>
-            @elseif (in_array(request()->route()->getName(), ['profile-static', 'profile']))
-                <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/profile-layout-header.jpg'); background-position-y: 50%;">
-                    <span class="mask bg-primary opacity-6"></span>
-                </div>
+            @if (auth()->check() && request()->route()->getName() != "")
+                @include('layouts.navbars.sidebar')
+                @include('pages/sidebarstyle')
             @endif
-            @include('layouts.navbars.auth.sidenav')
-                <main class="main-content border-radius-lg">
-                    @yield('content')
-                </main>
-            @include('components.fixed-plugin')
-        @endif
-    @endauth
 
-    <!--   Core JS Files   -->
-    <script src="assets/js/core/popper.min.js"></script>
-    <script src="assets/js/core/bootstrap.min.js"></script>
-    <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
+            <div class="@if (auth()->check() && request()->route()->getName() != "") main-panel @endif">
+                @include('layouts.navbars.navbar')
+                @yield('content')
+                @include('layouts.footer.nav')
+            </div>
+
+        </div>
+       
+
+
+    </body>
+        <!--   Core JS Files   -->
+    <script src="{{ asset('light-bootstrap/js/core/jquery.3.2.1.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('light-bootstrap/js/core/popper.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('light-bootstrap/js/core/bootstrap.min.js') }}" type="text/javascript"></script>
+
+    <script src="{{ asset('light-bootstrap/js/plugins/jquery.sharrre.js') }}"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="{{ asset('light-bootstrap/js/plugins/bootstrap-switch.js') }}"></script>
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!--  Chartist Plugin  -->
+    <script src="{{ asset('light-bootstrap/js/plugins/chartist.min.js') }}"></script>
+    <!--  Notifications Plugin    -->
+    <script src="{{ asset('light-bootstrap/js/plugins/bootstrap-notify.js') }}"></script>
+    <!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+    <script src="{{ asset('light-bootstrap/js/light-bootstrap-dashboard.js?v=2.0.0') }}" type="text/javascript"></script>
+    <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+    <script src="{{ asset('light-bootstrap/js/demo.js') }}"></script>
+    @stack('js')
     <script>
-        var win = navigator.platform.indexOf('Win') > -1;
-        if (win && document.querySelector('#sidenav-scrollbar')) {
-            var options = {
-                damping: '0.5'
-            }
-            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-        }
-    </script>
-    <!-- Github buttons -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="assets/js/argon-dashboard.js"></script>
-    @stack('js');
-</body>
+      $(document).ready(function () {
+        
+        $('#facebook').sharrre({
+          share: {
+            facebook: true
+          },
+          enableHover: false,
+          enableTracking: false,
+          enableCounter: false,
+          click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('facebook');
+          },
+          template: '<i class="fab fa-facebook-f"></i> Facebook',
+          url: 'https://light-bootstrap-dashboard-laravel.creative-tim.com/login'
+        });
 
+        $('#google').sharrre({
+          share: {
+            googlePlus: true
+          },
+          enableCounter: false,
+          enableHover: false,
+          enableTracking: true,
+          click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('googlePlus');
+          },
+          template: '<i class="fab fa-google-plus"></i> Google',
+          url: 'https://light-bootstrap-dashboard-laravel.creative-tim.com/login'
+        });
+
+        $('#twitter').sharrre({
+          share: {
+            twitter: true
+          },
+          enableHover: false,
+          enableTracking: false,
+          enableCounter: false,
+          buttons: {
+            twitter: {
+              via: 'CreativeTim'
+            }
+          },
+          click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('twitter');
+          },
+          template: '<i class="fab fa-twitter"></i> Twitter',
+          url: 'https://light-bootstrap-dashboard-laravel.creative-tim.com/login'
+        });
+      });
+    </script>
 </html>

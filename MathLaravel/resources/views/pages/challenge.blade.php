@@ -1,8 +1,8 @@
-@extends('layouts.app', ['class' => 'g-sidenav-show bg-gray-100'])
+@extends('layouts.app', ['activePage' => 'challenge', 'title' => 'G-22 INTERNATIONAL', 'navName' => 'Challenges', 'activeButton' => 'laravel'])
 
 @section('content')
-    @include('layouts.navbars.auth.topnav', ['title' => 'Challenge'])
-    <div class="container-fluid py-4">
+<div class="content">
+<div class="container-fluid">
         <div class="row">
             <div class="col-lg-8">
                 <div class="row">
@@ -13,20 +13,18 @@
                                 <span class="mask bg-gradient-dark"></span>
                                 <div class="card-body position-relative z-index-1 p-3">
                                     <i class="fas fa-wifi text-white p-2"></i>
-                                    <h5 class="text-white mt-4 mb-5 pb-2">
+                                    <h5 class="text-black mt-4 mb-5 pb-2">
                                        Challenge ID : C001 
                                     </h5>
                                     <div class="d-flex">
                                         <div class="d-flex">
-                                            <div class="me-4">
-                                                <p class="text-white text-sm opacity-8 mb-0">Challenge Admin</p>
-                                                <h6 class="text-white mb-0">Jack Peterson</h6>
+                                            <div class="me-4" >
+                                                <p  class="text-black text-sm opacity-8 mb-0">Challenge Admin</p>
+                                                <h6 class="text-black mb-0" >Jack Peterson</h6>
                                             </div>
                                             
                                         </div>
-                                        <div class="ms-auto w-20 d-flex align-items-end justify-content-end">
-                                            <img class="w-60 mt-2" src="/img/logos/mastercard.png" alt="logo">
-                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -73,11 +71,12 @@
                             <div class="card-header pb-0 p-3">
                                 <div class="row">
                                     <div class="col-6 d-flex align-items-center">
-                                        <h6 class="mb-0">New Challenge</h6>
+                                    <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">
+                                    New Challenge
+                                </div>
                                     </div>
                                     <div class="col-6 text-end">
-                                        <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i
-                                                class="fas fa-plus"></i>&nbsp;&nbsp;Add New Challenge</a>
+                                        <a class="btn bg-gradient-dark mb-0" href="javascript:;">&nbsp;&nbsp;Add New Challenge</a>
                                     </div>
                                 </div>
                             </div>
@@ -85,11 +84,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-md-0 mb-4">
                                         <div
-                                            class="card card-body border card-plain border-radius-lg d-flex align-items-center flex-row">
+                                            class="card card-body border card-plain border-radius-lg d-flex align-items-center flex-row ">
                                            
-                                            <h6 class="mb-0">
-                                              Add New Questions  
-                                            </h6>
+                                            <h6 class="text-center mb-0">Add New Questions</h6>
                                             <i class="fas fa-pencil-alt ms-auto text-dark cursor-pointer"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Card"></i>
                                         </div>
@@ -98,9 +95,7 @@
                                         <div
                                             class="card card-body border card-plain border-radius-lg d-flex align-items-center flex-row">
 
-                                            <h6 class="mb-0">
-                                               Modify Questions
-                                            </h6>
+                                            <h6 class="text-center mb-0">Modify Questions</h6>
                                             <i class="fas fa-pencil-alt ms-auto text-dark cursor-pointer"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Card"></i>
                                         </div>
@@ -131,7 +126,7 @@
                                     <span class="text-xs">#C001</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    Done
+                                    
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
@@ -142,7 +137,7 @@
                                     <span class="text-xs">#C002</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    Done
+                                
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
@@ -153,7 +148,7 @@
                                     <span class="text-xs">#C003</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    Done
+                                    
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
@@ -164,7 +159,7 @@
                                     <span class="text-xs">#C004</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                Done
+                                
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
@@ -175,7 +170,7 @@
                                     <span class="text-xs">#C005</span>
                                 </div>
                                 <div class="d-flex align-items-center text-sm">
-                                    Done
+                                    
                                     <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-4"><i
                                             class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                 </div>
@@ -264,9 +259,7 @@
                         <ul class="list-group">
                         <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-dark mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-exclamation"></i></button>
+                                    
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">29 June 2024, at 05:00 AM</span>
@@ -278,9 +271,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-down"></i></button>
+                                    
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">29 June 2024, at 12:30 PM</span>
@@ -292,9 +283,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                 
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">29 June 2024, at 04:30 AM</span>
@@ -309,9 +298,7 @@
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                    
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">28 June 2024, at 13:45 PM</span>
@@ -323,9 +310,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                    
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">28 June 2024, at 12:30 PM</span>
@@ -337,9 +322,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                   
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">28 June 2024, at 08:30 AM</span>
@@ -351,9 +334,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-down"></i></button>
+                                    
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">28 June 2024, at 12:30 PM</span>
@@ -368,9 +349,7 @@
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                   
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">27 June 2024, at 13:45 PM</span>
@@ -382,9 +361,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                   
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">27 June 2024, at 12:30 PM</span>
@@ -396,9 +373,8 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-up"></i></button>
+                                  
+                                
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">26 June 2024, at 08:30 AM</span>
@@ -410,9 +386,7 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-down"></i></button>
+                                    
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">26 June 2024, at 12:30 PM</span>
@@ -424,9 +398,8 @@
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
-                                    <button
-                                        class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i
-                                            class="fas fa-arrow-down"></i></button>
+                                  
+                                
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Challenge Closed</h6>
                                         <span class="text-xs">25 June 2024, at 12:30 PM</span>
@@ -441,6 +414,13 @@
                 </div>
             </div>
         </div>
-        @include('layouts.footers.auth.footer')
+        
     </div>
+</div>
+</div>
+
+    
+
+
 @endsection
+
