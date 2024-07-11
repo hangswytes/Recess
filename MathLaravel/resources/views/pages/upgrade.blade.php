@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'upgrade', 'title' => 'Light Bootstrap Dashboard Laravel by Creative Tim & UPDIVISION', 'navName' => 'Upgrade', 'activeButton' => 'laravel'])
+@extends('layouts.app', ['activePage' => 'upgrade', 'title' => 'INTERNATIONAL EDUCATION SERVICES', 'navName' => 'Upgrade', 'activeButton' => 'laravel'])
 
 @section('content')
     <div class="content">
@@ -9,8 +9,8 @@
                         <div class="col-md-8 ml-auto mr-auto">
                             <div class="card">
                                 <div class="header text-center">
-                                    <h4 class="title">{{ __('Light Bootstrap Dashboard')}}</h4>
-                                    <p class="category">{{ __('Are you looking for more components? Please check our Premium Version of Light Bootstrap Dashboard Laravel.')}}</p>
+                                    <h4 class="title">{{ __('INTERNATIONAL EDUCATION SERVICES')}}</h4>
+                                    <p class="category">{{ __('Are you looking for best Mathematics Challenges? Please check our Premium Version of INTERNATIONAL EDUCATION SERVICES.')}}</p>
                                     <br>
                                 </div>
                                 <div class="content table-responsive table-upgrade">
@@ -22,7 +22,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><h3 class="mb-0 mt-0">Laravel</h3></td>
+                                                <td><h3 class="mb-0 mt-0">I.E.S</h3></td>
                                                 <td class="text-center"></td>
                                                 <td class="text-center"></td>
                                             </tr>
@@ -87,7 +87,7 @@
                                                 <td>{{ __('22+')}}</td>
                                             </tr>
                                             <tr>
-                                                <td>{{ __('SASS Files')}}</td>
+                                                <td>{{ __('I.E.S Files')}}</td>
                                                 <td><i class="fa fa-times text-danger"></i></td>
                                                                     <td><i class="fa fa-check text-success"></td>
                                             </tr>

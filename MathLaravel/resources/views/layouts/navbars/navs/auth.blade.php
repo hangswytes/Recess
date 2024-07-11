@@ -21,11 +21,11 @@
                         <span class="d-lg-none">{{ __('Notification') }}</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <a class="dropdown-item" href="#">{{ __('Notification 1') }}</a>
-                        <a class="dropdown-item" href="#">{{ __('Notification 2') }}</a>
-                        <a class="dropdown-item" href="#">{{ __('Notification 3') }}3</a>
-                        <a class="dropdown-item" href="#">{{ __('Notification 4') }}</a>
-                        <a class="dropdown-item" href="#">{{ __('Another notification') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('Login successful') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('Login denied') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('Challenge attempted') }}3</a>
+                        <a class="dropdown-item" href="#">{{ __('Timed out') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('On pending') }}</a>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -46,12 +46,11 @@
                         <span class="no-icon">{{ __('Dropdown') }}</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">{{ __('Action') }}</a>
-                        <a class="dropdown-item" href="#">{{ __('Another action') }}</a>
-                        <a class="dropdown-item" href="#">{{ __('Something') }}</a>
-                        <a class="dropdown-item" href="#">{{ __('Something else here') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('View Challenge') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('Attempt Challenge') }}</a>
+                       >
                         <div class="divider"></div>
-                        <a class="dropdown-item" href="#">{{ __('Separated link') }}</a>
+                        <a class="dropdown-item" href="#">{{ __('Join Our Telegram') }}</a>
                     </div>
                 </li>
                 <li class="nav-item">

@@ -7,7 +7,7 @@ Tip 2: you can also add an image using data-image tag
     <div class="sidebar-wrapper">
         <div class="logo">
             <a href="http://www.creative-tim.com" class="simple-text">
-                {{ __("Creative Tim") }}
+                {{ __("INTERNATIONAL EDUCATION SERVICES ") }}
             </a>
         </div>
         <ul class="nav">
@@ -24,7 +24,7 @@ Tip 2: you can also add an image using data-image tag
                         <img src="{{ asset('light-bootstrap/img/laravel.svg') }}" style="width:25px">
                     </i>
                     <p>
-                        {{ __('Laravel example') }}
+                        {{ __('IES Users') }}
                         <b class="caret"></b>
                     </p>
                 </a>
@@ -55,21 +55,10 @@ Tip 2: you can also add an image using data-image tag
             <li class="nav-item @if($activePage == 'typography') active @endif">
                 <a class="nav-link" href="{{route('page.index', 'typography')}}">
                     <i class="nc-icon nc-paper-2"></i>
-                    <p>{{ __("Typography") }}</p>
+                    <p>{{ __("Challenges") }}</p>
                 </a>
             </li>
-            <li class="nav-item @if($activePage == 'icons') active @endif">
-                <a class="nav-link" href="{{route('page.index', 'icons')}}">
-                    <i class="nc-icon nc-atom"></i>
-                    <p>{{ __("Icons") }}</p>
-                </a>
-            </li>
-            <li class="nav-item @if($activePage == 'maps') active @endif">
-                <a class="nav-link" href="{{route('page.index', 'maps')}}">
-                    <i class="nc-icon nc-pin-3"></i>
-                    <p>{{ __("Maps") }}</p>
-                </a>
-            </li>
+           
             <li class="nav-item @if($activePage == 'notifications') active @endif">
                 <a class="nav-link" href="{{route('page.index', 'notifications')}}">
                     <i class="nc-icon nc-bell-55"></i>

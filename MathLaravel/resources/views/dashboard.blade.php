@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'dashboard', 'title' => 'Light Bootstrap Dashboard Laravel by Creative Tim & UPDIVISION', 'navName' => 'Dashboard', 'activeButton' => 'laravel'])
+@extends('layouts.app', ['activePage' => 'dashboard', 'title' => 'INTERNATIONAL EDUCATION SERVICES', 'navName' => 'Dashboard', 'activeButton' => 'laravel'])
 
 @section('content')
     <div class="content">
@@ -7,19 +7,19 @@
                 <div class="col-md-4">
                     <div class="card ">
                         <div class="card-header ">
-                            <h4 class="card-title">{{ __('Email Statistics') }}</h4>
-                            <p class="card-category">{{ __('Last Campaign Performance') }}</p>
+                            <h4 class="card-title">{{ __('Competition Statistics') }}</h4>
+                            <p class="card-category">{{ __('All Participant Performance') }}</p>
                         </div>
                         <div class="card-body ">
                             <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
                             <div class="legend">
                                 <i class="fa fa-circle text-info"></i> {{ __('Open') }}
-                                <i class="fa fa-circle text-danger"></i> {{ __('Bounce') }}
-                                <i class="fa fa-circle text-warning"></i> {{ __('Unsubscribe') }}
+                                <i class="fa fa-circle text-danger"></i> {{ __('Pending') }}
+                                <i class="fa fa-circle text-warning"></i> {{ __('Closed') }}
                             </div>
                             <hr>
                             <div class="stats">
-                                <i class="fa fa-clock-o"></i> {{ __('Campaign sent 2 days ago') }}
+                                <i class="fa fa-clock-o"></i> {{ __('Hightlights sent 2 days ago') }}
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@
                         <div class="card-footer ">
                             <div class="legend">
                                 <i class="fa fa-circle text-info"></i> {{ __('Open') }}
-                                <i class="fa fa-circle text-danger"></i> {{ __('Click') }}
-                                <i class="fa fa-circle text-warning"></i> {{ __('Click Second Time') }}
+                                <i class="fa fa-circle text-danger"></i> {{ __('Attempted') }}
+                                <i class="fa fa-circle text-warning"></i> {{ __('Not Attempted') }}
                             </div>
                             <hr>
                             <div class="stats">
@@ -51,16 +51,16 @@
                 <div class="col-md-6">
                     <div class="card ">
                         <div class="card-header ">
-                            <h4 class="card-title">{{ __('2017 Sales') }}</h4>
-                            <p class="card-category">{{ __('All products including Taxes') }}</p>
+                            <h4 class="card-title">{{ __('Yearly Competition Performance') }}</h4>
+                            <p class="card-category">{{ __('All Mathematics Challenge Performance ') }}</p>
                         </div>
                         <div class="card-body ">
                             <div id="chartActivity" class="ct-chart"></div>
                         </div>
                         <div class="card-footer ">
                             <div class="legend">
-                                <i class="fa fa-circle text-info"></i> {{ __('Tesla Model S') }}
-                                <i class="fa fa-circle text-danger"></i> {{ __('BMW 5 Series') }}
+                                <i class="fa fa-circle text-info"></i> {{ __('Boys') }}
+                                <i class="fa fa-circle text-danger"></i> {{ __('Girls') }}
                             </div>
                             <hr>
                             <div class="stats">

@@ -118,7 +118,7 @@
             <div class="sidebar-wrapper">
                 <div class="logo">
                     <a href="http://www.creative-tim.com" class="simple-text">
-                        {{ __("Creative Tim") }}
+                        {{ __("INTERNATIONAL EDUCATION SERVICES") }}
                     </a>
                 </div>
                 <ul class="nav">
@@ -135,7 +135,7 @@
                                 <img src="{{ asset('light-bootstrap/img/laravel.svg') }}" style="width:25px">
                             </i>
                             <p>
-                                {{ __('Laravel example') }}
+                                {{ __('IES Admin') }}
                                 <b class="caret"></b>
                             </p>
                         </a>
@@ -166,21 +166,10 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="{{route('page.index', 'typography')}}">
                             <i class="nc-icon nc-paper-2"></i>
-                            <p>{{ __("Typography") }}</p>
+                            <p>{{ __("Challenges") }}</p>
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="{{route('page.index', 'icons')}}">
-                            <i class="nc-icon nc-atom"></i>
-                            <p>{{ __("Icons") }}</p>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="{{route('page.index', 'maps')}}">
-                            <i class="nc-icon nc-pin-3"></i>
-                            <p>{{ __("Maps") }}</p>
-                        </a>
-                    </li>
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('page.index', 'notifications')}}">
                             <i class="nc-icon nc-bell-55"></i>
@@ -201,7 +190,7 @@
         <i class="fa fa-cog fa-2x"> </i>
     </a>
     <ul class="dropdown-menu">
-        <li class="header-title"> Sidebar Style</li>
+        <li class="header-title"> Sidebar </li>
         <li class="adjustments-line">
             <a href="javascript:void(0)" class="switch-trigger">
                 <p>Background Image</p>
@@ -249,7 +238,7 @@
         </li>
         <li class="button-container">
             <div class="">
-                <a href="https://www.creative-tim.com/product/light-bootstrap-dashboard-laravel" target="_blank" class="btn btn-info btn-block btn-fill">Download, it's free!</a>
+                <a href="https://www.creative-tim.com/product/light-bootstrap-dashboard-laravel" target="_blank" class="btn btn-info btn-block btn-fill">Download Our App, it's free!</a>
             </div>
         </li>
         <li class="button-container">
@@ -257,13 +246,13 @@
                 <a href="https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/tutorial-components.html" target="_blank" class="btn btn-default btn-block btn-fill">View Documentation</a>
             </div>
         </li>
-        <li class="header-title pro-title text-center">Want more components?</li>
+        <li class="header-title pro-title text-center">Want more Competition?</li>
         <li class="button-container">
             <div class="">
                 <a href="https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-laravel" target="_blank" class="btn btn-warning btn-block btn-fill">Get The PRO Version!</a>
             </div>
         </li>
-        <li class="header-title" id="sharrreTitle">Thank you for sharing!</li>
+        <li class="header-title" id="sharrreTitle">Thank you for contest!</li>
         <li class="button-container">
             <button id="twitter" class="btn btn-social btn-outline btn-twitter btn-round sharrre twitter-sharrre"><i class="fa fa-twitter"></i>· 256</button>
             <button id="facebook" class="btn btn-social btn-outline btn-facebook btn-round sharrre facebook-sharrre"><i class="fa fa-facebook-square"></i>· 426</button>
@@ -295,11 +284,11 @@
                                     <span class="d-lg-none">{{ __('Notification') }}</span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">{{ __('Notification 1') }}</a>
-                                    <a class="dropdown-item" href="#">{{ __('Notification 2') }}</a>
-                                    <a class="dropdown-item" href="#">{{ __('Notification 3') }}3</a>
-                                    <a class="dropdown-item" href="#">{{ __('Notification 4') }}</a>
-                                    <a class="dropdown-item" href="#">{{ __('Another notification') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('Login successful') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('Login denied') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('Challenge attempted') }}3</a>
+                                    <a class="dropdown-item" href="#">{{ __('Timed out') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('On pending') }}</a>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -320,12 +309,11 @@
                                     <span class="no-icon">{{ __('Dropdown') }}</span>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">{{ __('Action') }}</a>
-                                    <a class="dropdown-item" href="#">{{ __('Another action') }}</a>
-                                    <a class="dropdown-item" href="#">{{ __('Something') }}</a>
-                                    <a class="dropdown-item" href="#">{{ __('Something else here') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('View Challenge') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('Attempt Challenge') }}</a>
+                                    
                                     <div class="divider"></div>
-                                    <a class="dropdown-item" href="#">{{ __('Separated link') }}</a>
+                                    <a class="dropdown-item" href="#">{{ __('Join Our Telegram') }}</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -348,7 +336,7 @@
                             <div class="col-8">
                                 <h3 class="mb-0">Users</h3>
                                 <p class="text-sm mb-0">
-                                    This is an example of user management. This is a minimal setup in order to get started fast.
+                                    Check out the admin credentials, all you need to know about all Administrators.
                                 </p>
                             </div>
                             <div class="col-4 text-right">
@@ -382,8 +370,8 @@
                             <tbody>
                             
                                                                         <tr>
-                                        <td>Admin Admin</td>
-                                        <td>admin@lightbp.com</td>
+                                        <td>Jalir Luzinda </td>
+                                        <td>jalirluzinda@gmail.com</td>
                                         <td>2020-02-25 12:37:04</td>
                                         <td class="d-flex justify-content-end">
                                                 
@@ -410,10 +398,10 @@
     <nav>
         <ul class="footer-menu">
             <li>
-                <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+                <a href="https://www.creative-tim.com" class="nav-link" target="_blank">INTERNATIONAL EDUCATION SERVICES</a>
             </li>
             <li>
-                <a href="https://www.updivision.com" class="nav-link" target="_blank">Updivision</a>
+                <a href="https://www.updivision.com" class="nav-link" target="_blank">Hangs Wytes</a>
             </li>
             <li>
                 <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
@@ -427,7 +415,7 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>2020
-            <a href="http://www.creative-tim.com">Creative Tim</a> &amp; <a href="https://www.updivision.com">Updivision</a> , made with love for a better web
+            <a href="http://www.creative-tim.com">IES</a> &amp; <a href="https://www.updivision.com">Hangs Wytes</a> , made with love for a better Maths
         </p>
     </nav>
 </div>

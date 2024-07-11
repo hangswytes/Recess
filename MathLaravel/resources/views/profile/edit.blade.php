@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'user', 'title' => 'Light Bootstrap Dashboard Laravel by Creative Tim & UPDIVISION', 'navName' => 'User Profile', 'activeButton' => 'laravel'])
+@extends('layouts.app', ['activePage' => 'user', 'title' => 'INTERNATIONAL EDUCATION SERVICES', 'navName' => 'User Profile', 'activeButton' => 'laravel'])
 
 @section('content')
     <div class="content">
@@ -97,16 +97,16 @@
                                 <div class="author">
                                     <a href="#">
                                         <img class="avatar border-gray" src="{{ asset('light-bootstrap/img/faces/face-3.jpg') }}" alt="...">
-                                        <h5 class="title">{{ __('Mike Andrew') }}</h5>
+                                        <h5 class="title">{{ __('Jalir Luzinda') }}</h5>
                                     </a>
                                     <p class="description">
-                                        {{ __('michael24') }}
+                                        {{ __('jalirluzinda') }}
                                     </p>
                                 </div>
                                 <p class="description text-center">
-                                {{ __(' "Lamborghini Mercy') }}
-                                    <br> {{ __('Your chick she so thirsty') }}
-                                    <br> {{ __('I am in that two seat Lambo') }}
+                                {{ __(' Challenge Admin') }}
+                                    <br> {{ __('College of Computing & Information School') }}
+                                    <br> {{ __('Makerere University') }}
                                 </p>
                             </div>
                             <hr>

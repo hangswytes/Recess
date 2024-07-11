@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'register', 'title' => 'Light Bootstrap Dashboard Laravel by Creative Tim & UPDIVISION'])
+@extends('layouts.app', ['activePage' => 'register', 'title' => 'INTERNATIONAL EDUCATION SERVICES'])
 
 @section('content')
     <div class="full-page register-page section-image" data-color="orange" data-image="{{ asset('light-bootstrap/img/bg5.jpg') }}">
@@ -16,7 +16,7 @@
                                     </div>
                                     <div class="media-body">
                                         <h4>{{ __('Free Account') }}</h4>
-                                        <p>{{ __('Here you can write a feature description for your dashboard, let the users know what is the value that you give them.') }}</p>
+                                        <p>{{ __('Register and get a new account') }}</p>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -26,8 +26,8 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h4>{{ __('Awesome Performances') }}</h4>
-                                        <p>{{ __('Here you can write a feature description for your dashboard, let the users know what is the value that you give them.') }}</p>
+                                        <h4>{{ __('Awesome Highlights') }}</h4>
+                                        <p>{{ __('Here you can show all hightlights for your dashboard, let the users know what is the value that you give them.') }}</p>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="media-body">
                                         <h4>{{ __('Global Support') }}</h4>
-                                        <p>{{ __('Here you can write a feature description for your dashboard, let the users know what is the value that you give them.') }}</p>
+                                        <p>{{ __('Here you can access our customer care for your dashboard..') }}</p>
                                     </div>
                                 </div>
                             </div>

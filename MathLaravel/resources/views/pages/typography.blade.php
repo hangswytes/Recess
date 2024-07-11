@@ -21,7 +21,7 @@
                                         <div class="d-flex">
                                             <div class="me-4">
                                                 <p class="text-white text-sm opacity-8 mb-0">Challenge Admin</p>
-                                                <h6 class="text-white mb-0">Jack Peterson</h6>
+                                                <h6 class="text-white mb-0">Jalir Luzinda</h6>
                                             </div>
                                             
                                         </div>
@@ -191,7 +191,7 @@
             <div class="col-md-7 mt-4">
                 <div class="card">
                     <div class="card-header pb-0 px-3">
-                        <h6 class="mb-0">Manage Challenge</h6>
+                        <h6 class="mb-0">Set Challenge Parameters</h6>
                     </div>
                     <div class="card-body table-full-width table-responsive">
                             <table class="table table-hover table-striped">
